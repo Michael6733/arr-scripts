@@ -56,7 +56,7 @@ pip3 install -r ${SMA_PATH}/setup/requirements.txt
 mkdir -p /custom-services.d
 
 echo "Download QueueCleaner service..."
-curl https://raw.githubusercontent.com/RandomNinjaAtk/arr-scripts/main/universal/services/QueueCleaner -o /custom-services.d/QueueCleaner
+curl https://raw.githubusercontent.com/Michael/arr-scripts/main/universal/services/QueueCleaner -o /custom-services.d/QueueCleaner
 echo "Done"
 
 echo "Download AutoConfig service..."
@@ -72,7 +72,7 @@ curl https://raw.githubusercontent.com/RandomNinjaAtk/arr-scripts/main/lidarr/Ti
 echo "Done"
 
 echo "Download Audio service..."
-curl https://raw.githubusercontent.com/RandomNinjaAtk/arr-scripts/main/lidarr/Audio.service.bash -o /custom-services.d/Audio
+curl https://raw.githubusercontent.com/Michael6733/arr-scripts/main/lidarr/Audio.service.bash -o /custom-services.d/Audio
 echo "Done"
 
 echo "Download AutoArtistAdder service..."
