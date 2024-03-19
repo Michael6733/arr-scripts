@@ -4,6 +4,7 @@ version="1.1"
 
 echo "*** install packages ***" && \
 apk add -U --upgrade --no-cache \
+  cargo \
   tidyhtml \
   musl-locales \
   musl-locales-lang \
