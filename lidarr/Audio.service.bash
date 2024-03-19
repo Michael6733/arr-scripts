@@ -174,6 +174,9 @@ DownloadFormat () {
 		elif [ "$audioBitrate" == "high" ]; then
 			tidalQuality=High
 			deemixQuality=320
+   		elif [ "$audioBitrate" == "medium" ]; then
+     			tidalQuality=Medium
+			deemixQuality=192
 		elif [ "$audioBitrate" == "low" ]; then
 			tidalQuality=128
 			deemixQuality=128
